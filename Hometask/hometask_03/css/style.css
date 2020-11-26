@@ -13,6 +13,8 @@
 }
 
 .content-picture {
+    height: 1080px;
+    width: 1440px;
     background-image: url('../img/img.jpg');
     background-position: top center;
     background-size: cover;
@@ -44,6 +46,27 @@
 
 .about-paragraph {
     color: #000;
+    font-family: "Helvetica", sans-serif;
     font-size: 25px;
     font-style: normal;
+}
+
+
+
+.footer-section {
+    height: 200px;
+    width:1440px;
+    background-color:  #e5e000;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: 50px 80px;
+}
+
+
+
+.footer-paragraph {
+    color: #fff;
+    font-size: 50px;
+    text-align: right;
+    line-height: 200px;
 }
