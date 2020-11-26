@@ -1,7 +1,6 @@
 .header {
     background-color: #e5e000;
     height: 200px;
-    width: 1440px;
 }
 
 .header-title {
@@ -14,7 +13,6 @@
 
 .content-picture {
     height: 1080px;
-    width: 1440px;
     background-image: url('../img/img.jpg');
     background-position: top center;
     background-size: cover;
@@ -23,7 +21,6 @@
 .navigation {
     background-color: #e5e000;
     height: 100px;
-    width: 1440px;
 }
 
 
@@ -55,7 +52,6 @@
 
 .footer-section {
     height: 200px;
-    width:1440px;
     background-color:  #e5e000;
     background-image: url('../img/logo.png');
     background-repeat: no-repeat;
