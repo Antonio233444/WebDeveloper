@@ -1,0 +1,49 @@
+.header {
+    background-color: #e5e000;
+    height: 200px;
+    width: 1440px;
+}
+
+.header-title {
+    font-family: "Helvetica", sans-serif;
+    color: #fff;
+    font-size: 50px;
+    line-height: 200px;
+
+}
+
+.content-picture {
+    background-image: url('../img/img.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+.navigation {
+    background-color: #e5e000;
+    height: 100px;
+    width: 1440px;
+}
+
+
+.link {
+    color: #fff;
+    font-family: "Helvetica", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+.about-title {
+    color: #000;
+    font-family: "Helvetica", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.about-paragraph {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+}
