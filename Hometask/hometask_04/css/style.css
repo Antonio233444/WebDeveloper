@@ -41,6 +41,7 @@
     font-family: "Times New Roman", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .strawberryTart .tartList {
@@ -57,6 +58,11 @@
 
 .strawberryTart .toppingList {
     list-style: none;
+}
+
+
+ul {
+    margin:0;
 }
 
 
