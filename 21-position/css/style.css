@@ -1,0 +1,41 @@
+@import url('reset.css');
+
+section {
+    height: 600px;
+    border: 2px seagreen solid;
+}
+
+.inner {
+    height: 50px;
+    width: 50px;
+}
+
+.static  .inner {
+    background-color: skyblue;
+    position: static;/*статическое позиционирование,по умолчанию,элемент остаётся в потоке,управлять его положением можно только с помощью margin*/
+}
+
+.relative .inner {
+    background-color: teal;
+    position: relative;/*двигаем элемент относительно самого себя,то есть окружающие элементы его по-прежнему видят на прежнем месте*/
+    top: 50px;
+    left: 30px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.absolute .inner {
+    background-color: tomato;
+    position: absolute;/*такое позиционирование вырывает элемент из потока,остальные элементы перестают его видеть,элемент двигается относительно родителя*/
+    top: 20px;
+    left: 10px;
+}   
+
+.fixed .inner {
+    background-color: salmon;
+    position: fixed;/*позиционируется отнсительно окна браузера*/
+    bottom: 200px;
+    right: 100px;
+}
