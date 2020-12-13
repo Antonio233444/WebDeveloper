@@ -13,12 +13,16 @@
     box-sizing: border-box;
 }
 
+.main-content {
+    text-align: center;
+}
+
 .strawberryTart {
     min-width: 400px;
     border: 2px #e5e000 solid;
     border-radius: 20px;
     display: inline-block;
-    padding: 50px 85px;
+    padding: 50px;
     box-sizing: border-box;
     margin-top: 20px;
     margin-bottom: 20px;
