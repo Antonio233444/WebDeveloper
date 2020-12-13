@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.html {
+html {
     font-size: 10px;
 }
 
@@ -14,7 +14,7 @@
     background-color: #fe1a19;
 }
 
-.headerText {
+.header-text {
     color: #fff;
     font-family: "Helvetica", sans-serif;
     font-weight: 400;
@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-.strawberryTart {
+.strawberry-tart {
     min-width: 25rem;
     border: 2px #e5e000 solid;
     border-radius: 1.25rem;
@@ -54,7 +54,7 @@
     box-sizing: border-box;
 }
 
-.strawberryTart .strawberryTitle {
+.strawberry-tart .strawberry-title {
     color: #000;
     text-align: left;
     font-size: 1.25rem;
@@ -63,7 +63,7 @@
     margin-bottom: 1.25rem;
 }
 
-.strawberryTart h3 {
+.strawberry-tart h3 {
     text-align: left;
     font-family: "Times New Roman", sans-serif;
     font-weight: 400;
@@ -71,35 +71,35 @@
     margin-bottom: 0;
 }
 
-.strawberryTart .tartList {
+.strawberry-tart .tart-list {
     text-align: left;
     list-style: none;
     margin-bottom: 0.9375rem;
 }
 
-.strawberryTart .almondList {
+.strawberry-tart .almond-list {
     text-align: left;
     list-style: none;
     margin-bottom: 0.9375rem;
 }
 
-.strawberryTart .custardList {
+.strawberry-tart .custard-list {
     text-align: left;
     list-style: none;
     margin-bottom: 0.9375rem;
 }
 
-.strawberryTart .toppingList {
+.strawberry-tart .topping-list {
     text-align: left;
     list-style: none;
 }
 
 
-.strawberryTart:nth-child(2) {
+.strawberry-tart:nth-child(2) {
     margin: 0 2.5rem;
 }
 
-.strawberryTart:last-child {
+.strawberry-tart:last-child {
     margin-right: 0;
 }
 
