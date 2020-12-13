@@ -1,5 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-size: 10px;
+}
+
+
 .header {
-    height: 60px;
+    height: 3.75rem;
     background-color: #fe1a19;
 }
 
@@ -7,9 +18,9 @@
     color: #fff;
     font-family: "Helvetica", sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 60px;
-    padding-left: 10px;
+    font-size: 1.25rem;
+    line-height: 3.75rem;
+    padding-left: 0.625rem;
     box-sizing: border-box;
 }
 
@@ -18,37 +29,38 @@
 }
 
 .strawberryTart {
-    min-width: 400px;
+    min-width: 25rem;
     border: 2px #e5e000 solid;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     display: inline-block;
-    padding: 50px;
+    padding: 3.125rem;
     box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 8px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-right: 0.5rem;
 }
 
 .footer {
-    height: 60px;
+    height: 3.75rem;
     background-color: #fe1a19;
 }
 
 .footer .copyright {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;
-    line-height: 60px;
-    padding-left: 20px;
+    line-height: 3.75rem;
+    padding-left: 1.25rem;
     box-sizing: border-box;
 }
 
 .strawberryTart .strawberryTitle {
     color: #000;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Helvetica", sans-serif;
     font-weight: 700;
+    margin-bottom: 1.25rem;
 }
 
 .strawberryTart h3 {
@@ -62,16 +74,19 @@
 .strawberryTart .tartList {
     text-align: left;
     list-style: none;
+    margin-bottom: 0.9375rem;
 }
 
 .strawberryTart .almondList {
     text-align: left;
     list-style: none;
+    margin-bottom: 0.9375rem;
 }
 
 .strawberryTart .custardList {
     text-align: left;
     list-style: none;
+    margin-bottom: 0.9375rem;
 }
 
 .strawberryTart .toppingList {
@@ -80,10 +95,14 @@
 }
 
 
-ul {
-    margin: 0;
-    padding: 0;
+.strawberryTart:nth-child(2) {
+    margin: 0 2.5rem;
 }
+
+.strawberryTart:last-child {
+    margin-right: 0;
+}
+
 
 
 
