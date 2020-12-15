@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
+
 html {
     font-size: 10px;
     font-family: "Helvetica", sans-serif;
 }
 
+body {
+    font-size: 1.5rem;
+}
+
 
 .header {
-    height: 60px;
+    height: 6rem;
     background-color: #fe1a19;
 }
 
@@ -19,9 +24,9 @@ html {
     color: #fff;
     font-family: "Helvetica", sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 60px;
-    padding-left: 10px;
+    font-size: 2rem;
+    line-height: 6rem;
+    padding-left: 1rem;
     box-sizing: border-box;
 }
 
@@ -30,38 +35,38 @@ html {
 }
 
 .strawberry-tart {
-    min-width: 400px;
-    border: 2px #e5e000 solid;
-    border-radius: 20px;
+    min-width: 40rem;
+    border: 0.2rem #e5e000 solid;
+    border-radius: 2rem;
     display: inline-block;
-    padding: 50px;
+    padding: 3rem;
     box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 8px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 0.8rem;
 }
 
 .footer {
-    height: 60px;
+    height: 6rem;
     background-color: #fe1a19;
 }
 
 .footer .copyright {
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     text-transform: uppercase;
-    line-height: 60px;
-    padding-left: 20px;
+    line-height: 6rem;
+    padding-left: 2rem;
     box-sizing: border-box;
 }
 
 .strawberry-tart .strawberry-title {
     color: #000;
     text-align: left;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Helvetica", sans-serif;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .strawberry-tart h3 {
@@ -75,19 +80,19 @@ html {
 .strawberry-tart .tart-list {
     text-align: left;
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .strawberry-tart .almond-list {
     text-align: left;
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .strawberry-tart .custard-list {
     text-align: left;
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .strawberry-tart .topping-list {
@@ -97,7 +102,7 @@ html {
 
 
 .strawberry-tart:nth-child(2) {
-    margin: 0 40px;
+    margin: 0 4rem;
 }
 
 .strawberry-tart:last-child {
