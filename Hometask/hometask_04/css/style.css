@@ -18,6 +18,7 @@ body {
 .header {
     height: 6rem;
     background-color: #fe1a19;
+    margin-bottom: 3rem;
 }
 
 .header-text {
@@ -27,11 +28,11 @@ body {
     font-size: 2rem;
     line-height: 6rem;
     padding-left: 1rem;
-    box-sizing: border-box;
 }
 
 .main-content {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .strawberry-tart {
@@ -40,26 +41,10 @@ body {
     border-radius: 2rem;
     display: inline-block;
     padding: 3rem;
-    box-sizing: border-box;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 0.8rem;
 }
-
-.footer {
-    height: 6rem;
-    background-color: #fe1a19;
-}
-
-.footer .copyright {
-    color: #fff;
-    font-size: 2rem;
-    text-transform: uppercase;
-    line-height: 6rem;
-    padding-left: 2rem;
-    box-sizing: border-box;
-}
-
 .strawberry-tart .strawberry-title {
     color: #000;
     text-align: left;
@@ -77,27 +62,11 @@ body {
     margin-bottom: 0;
 }
 
-.strawberry-tart .tart-list {
+
+.strawberry-tart ul {
     text-align: left;
     list-style: none;
     margin-bottom: 1.5rem;
-}
-
-.strawberry-tart .almond-list {
-    text-align: left;
-    list-style: none;
-    margin-bottom: 1.5rem;
-}
-
-.strawberry-tart .custard-list {
-    text-align: left;
-    list-style: none;
-    margin-bottom: 1.5rem;
-}
-
-.strawberry-tart .topping-list {
-    text-align: left;
-    list-style: none;
 }
 
 
@@ -108,6 +77,21 @@ body {
 .strawberry-tart:last-child {
     margin-right: 0;
 }
+
+.footer {
+    height: 6rem;
+    background-color: #fe1a19;
+}
+
+.footer .copyright {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 6rem;
+    padding-left: 2rem;
+}
+
+
 
 
 
