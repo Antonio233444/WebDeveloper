@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Arial", sans-serif;
+}
+
+header {
+    min-height: 140px;
+    background-color: #fff;
+}
+
+.logo {
+    padding-top: 40px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navigation-list a {
+    text-decoration: none;
+}

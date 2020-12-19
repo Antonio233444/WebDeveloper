@@ -1,0 +1,31 @@
+@import url('reset.css');
+
+
+.flex-container {
+    height: 300px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.flex-item {
+    height: 100px;
+    width: 100px;
+    background-color: darkgoldenrod;
+}
+
+.flex-item.one {
+   order: 1;
+   flex-grow: 0;/*опряделяет,сколько места элемент занимает в контейнере*/
+   flex-shrink: 2;/*коэффициент сжатия при уменьшении контейнера*/
+   align-self: flex-end;/*управляет отдельно взятым элементом*/
+}
+
+.flex-item.three {
+    order: 2;
+    flex-basis: 200px;/*размер элемента,остается таким даже при сжатии*/
+ }
