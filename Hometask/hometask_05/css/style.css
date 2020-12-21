@@ -8,14 +8,21 @@ html {
     font-family: "Arial", sans-serif;
 }
 
-header {
+.header {
     min-height: 140px;
     background-color: #fff;
 }
 
-.logo {
-    padding-top: 40px;
+.header-container {
+    display: flex;
+    justify-content: space-between;
 }
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 
 .navigation-list {
     display: flex;
@@ -24,6 +31,130 @@ header {
     list-style-type: none;
 }
 
+.navigation-item {
+    margin-right: 40px;
+}
+
+.navigation-list:last-child {
+    margin-right: 0;
+}
+
 .navigation-list a {
     text-decoration: none;
+    font-size: 50px;
+    color: #E50043;
 }
+
+.content-container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.limited-edition {
+    min-height: 950px;
+    background-image: url('../img/background.png');
+    margin-bottom: 150px;
+}
+
+.about {
+    min-width: 1040px;
+    min-height: 280px;
+    border: 3px #F8BFC7 solid;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+.about h3 {
+    color: #000;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #000;
+    font-size: 25px;
+}
+
+.water {
+    margin-bottom: 50px;
+}
+
+
+.first-paragraph, .second-paragraph {
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.water-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.design img {
+    margin-bottom: 20px;
+}
+
+
+.description {
+    display: flex;
+    border: 3px #F8BFC7 solid;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.bottle {
+    margin:20px 60px;
+}
+
+
+.composition {
+    align-self:center;
+    min-width: 800px;
+}
+
+.composition p {
+    color: #000;
+    font-size: 25px;
+    line-height: 28.75px;
+}
+
+.composition-first {
+    margin-bottom: 20px;
+}
+
+.composition-second {
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    min-height: 140px;
+    background-color: #F8BFC7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-container .copyright {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.footer-container .back {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
