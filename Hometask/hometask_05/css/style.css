@@ -6,21 +6,30 @@
 
 html {
     font-family: "Arial", sans-serif;
+    font-size: 10px;
+}
+
+.body {
+    font-size: 1.5rem;
 }
 
 .header {
-    min-height: 140px;
+    min-height: 14rem;
     background-color: #fff;
+    width: 100%;
+    position: fixed;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .logo {
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
 
 
@@ -32,7 +41,7 @@ html {
 }
 
 .navigation-item {
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 
 .navigation-list:last-child {
@@ -41,50 +50,60 @@ html {
 
 .navigation-list a {
     text-decoration: none;
-    font-size: 50px;
+    font-size: 5rem;
     color: #E50043;
 }
 
 .content-container {
-    width: 1040px;
+    width: 104rem;
     margin: 0 auto;
 }
 
 .limited-edition {
-    min-height: 950px;
+    min-height: 95rem;
     background-image: url('../img/background.png');
-    margin-bottom: 150px;
+    margin-bottom: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.limited-edition h1{
+    color: #E50043;
+    font-size: 10rem;
+    font-weight: normal;
+}
+
+
 .about {
-    min-width: 1040px;
-    min-height: 280px;
+    min-width: 104rem;
+    min-height: 28rem;
     border: 3px #F8BFC7 solid;
-    border-radius: 10px;
-    padding: 25px;
-    margin-bottom: 100px;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin-bottom: 10rem;
 }
 
 .about h3 {
     color: #000;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .about p {
     color: #000;
-    font-size: 25px;
+    font-size: 2.5em;
 }
 
 .water {
-    margin-bottom: 50px;
+    margin-bottom: 7rem;
 }
 
 
 .first-paragraph, .second-paragraph {
     color: #000;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -96,44 +115,44 @@ html {
 }
 
 .design img {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 
 .description {
     display: flex;
     border: 3px #F8BFC7 solid;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    padding: 20px;
+    border-radius: 1rem;
+    margin-bottom: 7rem;
+    padding: 2rem;
 }
 
 .bottle {
-    margin:20px 60px;
+    margin:2rem 6rem;
 }
 
 
 .composition {
     align-self:center;
-    min-width: 800px;
+    min-width: 80rem;
 }
 
 .composition p {
     color: #000;
-    font-size: 25px;
-    line-height: 28.75px;
+    font-size: 2.5rem;
+    line-height: 2.875rem;
 }
 
 .composition-first {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .composition-second {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .footer-container {
-    min-height: 140px;
+    min-height: 14rem;
     background-color: #F8BFC7;
     display: flex;
     justify-content: space-between;
@@ -142,7 +161,7 @@ html {
 
 
 .footer-container .copyright {
-    font-size: 50px;
+    font-size: 5rem;
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
@@ -150,7 +169,7 @@ html {
 
 
 .footer-container .back {
-    font-size: 50px;
+    font-size: 5rem;
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
