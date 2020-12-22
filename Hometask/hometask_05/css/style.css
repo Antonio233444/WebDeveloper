@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 
+
+:root {
+    --header-color: #fff;
+    --footer-color: #F8BFC7;
+}
 html {
-    font-family: "Arial", sans-serif;
-    font-size: 10px;
+    font-size: 62.5;
 }
 
 .body {
+     font-family: "Arial", sans-serif;
     font-size: 1.5rem;
 }
 
 .header {
     min-height: 14rem;
-    background-color: #fff;
+    background-color: var(--primary-color);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -80,7 +85,6 @@ html {
 
 
 .about {
-    min-width: 104rem;
     min-height: 28rem;
     border: 3px #F8BFC7 solid;
     border-radius: 1rem;
@@ -100,27 +104,45 @@ html {
     font-size: 2.5em;
 }
 
-.water {
+/*.water {
     margin-bottom: 7rem;
 }
+*/
 
-
-.first-paragraph, .second-paragraph {
+/*.center {
     color: #000;
     font-size: 2.5rem;
     text-align: center;
 }
+*/
 
 
-.water-list {
+/*.water-list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
+*/
 
-.design img {
+/*.design img {
     margin-bottom: 2rem;
 }
+*/
+
+.water {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+
+.water-bottle > figcaption {
+    color: #000;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+}
+
+
 
 
 .description {
@@ -157,7 +179,7 @@ html {
 
 .footer {
     min-height: 14rem;
-    background-color: #F8BFC7;
+    background-color: var(--footer-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
