@@ -17,21 +17,17 @@ html {
     min-height: 14rem;
     background-color: #fff;
     width: 100%;
-    position: fixed;
-}
-
-.header-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
+    position: fixed;
 }
+
 
 .logo {
-    padding-top: 2rem;
-    padding-left: 2rem;
+    margin-left: 2rem;
 }
-
 
 .navigation-list {
     display: flex;
@@ -151,7 +147,7 @@ html {
     margin-bottom: 2rem;
 }
 
-.footer-container {
+.footer {
     min-height: 14rem;
     background-color: #F8BFC7;
     display: flex;
@@ -160,19 +156,21 @@ html {
 }
 
 
-.footer-container .copyright {
+.footer .copyright {
     font-size: 5rem;
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
+    margin-left: 2rem;
 }
 
 
-.footer-container .back {
+.footer .back {
     font-size: 5rem;
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
+    margin-right: 2rem;
 }
 
 
