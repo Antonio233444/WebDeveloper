@@ -8,9 +8,10 @@
 :root {
     --header-color: #fff;
     --footer-color: #F8BFC7;
+    --background-image: url('../img/background.png');
 }
 html {
-    font-size: 62.5;
+    font-size: 62.5%;
 }
 
 .body {
@@ -68,7 +69,7 @@ html {
 
 .limited-edition {
     min-height: 95rem;
-    background-image: url('../img/background.png');
+    background-image: var(--background-image);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 15rem;
@@ -140,7 +141,9 @@ html {
     color: #000;
     font-size: 2.5rem;
     margin-top: 4rem;
+    text-align: center;
 }
+
 
 
 
@@ -186,7 +189,7 @@ html {
 }
 
 
-.footer .copyright {
+.footer .footer-text {
     font-size: 5rem;
     color: #fff;
     font-weight: 400;
@@ -195,13 +198,6 @@ html {
 }
 
 
-.footer .back {
-    font-size: 5rem;
-    color: #fff;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-right: 2rem;
-}
 
 
 
