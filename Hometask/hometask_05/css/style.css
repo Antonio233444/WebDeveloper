@@ -15,7 +15,7 @@ html {
 }
 
 .body {
-     font-family: "Arial", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 1.5rem;
 }
 
@@ -105,30 +105,6 @@ html {
     font-size: 2.5em;
 }
 
-/*.water {
-    margin-bottom: 7rem;
-}
-*/
-
-/*.center {
-    color: #000;
-    font-size: 2.5rem;
-    text-align: center;
-}
-*/
-
-
-/*.water-list {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}
-*/
-
-/*.design img {
-    margin-bottom: 2rem;
-}
-*/
 
 .water {
     display: flex;
@@ -145,7 +121,9 @@ html {
 }
 
 
-
+.water-img {
+    width: 28rem;
+}
 
 
 .description {
@@ -158,6 +136,10 @@ html {
 
 .bottle {
     margin:2rem 6rem;
+}
+
+.bottle-img {
+    width: 10rem;
 }
 
 
