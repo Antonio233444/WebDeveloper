@@ -88,6 +88,9 @@
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
 }
 
 
