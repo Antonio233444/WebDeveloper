@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color: #ffe138;
+    --footer-color: #ffe138;
+}
+
+.html {
+    font-size: 10px;
+}
+
+.body {
+    font-family: "Times New Roman", sans-serif;
+}
+
+
+.header {
+    max-width: 1440px;
+    min-height: 160px;
+    background-color: var(--header-color);
+    line-height: 160px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header-title {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.columns {
+    width: 60vw;
+    margin: 0px auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.column {
+    width: calc((100% - 40px)/3);
+    border: 1px solid black;
+}
+
+
+
+.column-image1 {
+    background-image: url('../img/doge.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+    margin-bottom: 15px;
+}
+
+.column-image2 {
+    background-image: url('../img/doge2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+    margin-bottom: 15px;
+}
+
+.column-image3 {
+    background-image: url('../img/doge3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+    margin-bottom: 15px;
+}
+
+.column-title {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.column-text {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.footer {
+    max-width: 1440px;
+    min-height: 160px;
+    background-color: var(--footer-color);
+    line-height: 160px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,26 @@
+@import url('reset.css');
+
+
+
+html {
+    font-size: 30px;
+}
+
+.outer {
+    font-size: 20px;
+}
+
+.outer  h1 {
+    font-size: 2em;/*em- размер шрифта относительно родительского элемента*/
+
+}
+
+
+.outer {
+    font-size: 30px;
+}
+
+.outer2 p {
+    font-size: 2rem;/*rem-размер шрифта относительно корневого элемента*/
+}
+

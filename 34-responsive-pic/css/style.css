@@ -1,0 +1,26 @@
+@import url('reset.css');
+
+
+
+.columns {
+    width: 80vw;
+    margin: 0px auto;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: blanchedalmond;
+}
+
+
+.column {
+    width: calc((100% - 40px)/3);
+    background-color: cornflowerblue;
+}
+
+.image {
+    background-image: url('../img/doge.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}

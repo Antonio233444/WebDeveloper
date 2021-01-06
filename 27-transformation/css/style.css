@@ -1,0 +1,25 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: 20px auto;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+.translate:hover {
+    transform: translate(20px,30px);/*сдвиг по оси икс и игрек*/
+}
+
+
+.rotate:hover {
+    transform: rotate(30deg);/*поворачивание на определённое количество градусов*/ 
+}
+
+.skew:hover {
+    transform: skew(20deg,10deg);/*наклон по оси икс и игрек*/
+}
+
+.scale:hover {
+    transform: scale(0.5,0.5);/*масштабирование по оси икс и игрек*/
+}

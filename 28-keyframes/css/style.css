@@ -1,0 +1,47 @@
+@import url('reset.css');
+
+@keyframes moving {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 30px;
+        left: 50px;
+        background-color: cornflowerblue;
+    }
+    50% {
+        top: 100px;
+        left: 150px;
+        background-color: violet;
+    }
+    75% {
+        top: 200px;
+        left: 300px;
+        background-color: mediumvioletred;
+    }
+    100% {
+        top: 300px;
+        left: 450px;
+        background-color: greenyellow;
+    }
+}
+
+body {
+    background-color: bisque;
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: relative;
+    animation-name: moving;/*имя,которое мы дали keyframes*/
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;/*число повторений анимации*/
+    animation-direction: alternate;/*направление анимации*/
+    animation-play-state: running;
+}

@@ -1,0 +1,14 @@
+@import url('reset.css');
+
+
+.vh {
+    height: 30vh;/*блок займёт 30 процентов высоты устройства*/
+    width: 50vw;/*блок займёт 50 процентов ширины экрана*/
+    background-color: darksalmon;
+}
+
+.vminvmax {
+    height: 30vmax;
+    width: 40vmin;
+    background-color: indigo;
+}

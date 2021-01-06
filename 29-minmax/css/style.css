@@ -1,0 +1,15 @@
+@import url('reset.css');
+
+.min {
+    width: 200px;
+    min-height: 300px;/*минимальная высота блока.Высота будет увеличиваться в зависимости от контента,но не будет меньше 300 пикселей*/
+    border: 2px solid red;
+    margin-bottom: 30px;
+}
+
+.max {
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: bisque;
+}
