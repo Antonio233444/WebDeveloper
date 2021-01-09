@@ -55,7 +55,7 @@
     background-image: url('../img/doge.jpg');
     background-size: cover;
     background-position: center;
-    padding: 50%;
+    padding-bottom: 150%;
     margin-bottom: 0.9rem;
 }
 
@@ -63,7 +63,7 @@
     background-image: url('../img/doge2.jpg');
     background-size: cover;
     background-position: center;
-    padding: 50%;
+    padding-bottom: 150%;
     margin-bottom: 0.9rem;
 }
 
@@ -71,7 +71,7 @@
     background-image: url('../img/doge3.jpg');
     background-size: cover;
     background-position: center;
-    padding: 50%;
+    padding-bottom: 150%;
     margin-bottom: 0.9rem;
 }
 
