@@ -9,8 +9,8 @@
     --footer-color: #ffe138;
 }
 
-.html {
-    font-size: 62.5px;
+html {
+    font-size: 62.5%;
 }
 
 .body {
