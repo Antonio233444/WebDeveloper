@@ -10,7 +10,7 @@
 }
 
 .html {
-    font-size: 16px;
+    font-size: 62.5px;
 }
 
 .body {
@@ -49,30 +49,26 @@
     border: 1px solid black;
 }
 
-
-
-.column-image1 {
-    background-image: url('../img/doge.jpg');
+.column-image {
     background-size: cover;
     background-position: center;
     padding-bottom: 150%;
     margin-bottom: 0.9rem;
+}
+
+.column-image1 {
+    background-image: url('../img/doge.jpg');
+
 }
 
 .column-image2 {
     background-image: url('../img/doge2.jpg');
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 150%;
-    margin-bottom: 0.9rem;
+
 }
 
 .column-image3 {
     background-image: url('../img/doge3.jpg');
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 150%;
-    margin-bottom: 0.9rem;
+
 }
 
 .column-title {
