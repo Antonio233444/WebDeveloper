@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color: #ffe138;
+    --footer-color: #ffe138;
+}
+
+html {
+    font-family: "Helvetica", sans-serif;
+}
+
+.header {
+    min-height: 100px;
+    background-color: #0000ff;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.footer {
+    min-height: 100px;
+    background-color: #0000ff;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer-text.first {
+    text-align: left;
+}
+
+
+.footer-text.second {
+    text-align: right;
+}

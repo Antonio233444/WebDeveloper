@@ -1,0 +1,44 @@
+@import url('reset.css');
+
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(200,200, 50, 0.5);
+}
+
+
+@media screen and (min-width: 600px) {
+    div {
+        width: 300px;
+        height: 300px;
+        background-color: rgba(210,210, 50, 0.5);
+    }
+}
+
+@media screen and (min-width: 960px) {
+    div {
+        width: 400px;
+        height: 400px;
+        background-color: rgba(50,100, 100, 0.5);
+    }
+}
+
+@media screen and (min-width: 1264px) {
+    div {
+        width: 500px;
+        height: 500px;
+        background-color: rgba(150,200, 50, 0.5);
+    }
+}
+
+@media screen and (min-width: 1904px) {
+    div {
+        width: 600px;
+        height: 600px;
+        background-color: rgba(200, 0, 150, 0.5);
+    }
+}
+
+
+
