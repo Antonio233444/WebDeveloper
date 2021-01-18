@@ -9,7 +9,7 @@ div {
 
 @media all and (max-width: 720px) {
    div {
-       background-color: burlywood;
+       background-color: navy;
        width: 400px;
    }
 }

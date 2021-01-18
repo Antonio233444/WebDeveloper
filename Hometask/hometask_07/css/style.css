@@ -27,10 +27,9 @@ html {
 }
 
 .column {
-    min-height: 1024px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 10px;
     align-items: center;
 
 }
@@ -66,6 +65,15 @@ html {
 .footer-text.first {
     text-align: left;
     line-height: 100px;
+}
+
+
+@media screen and (min-width: 500px) {
+  .column {
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 
