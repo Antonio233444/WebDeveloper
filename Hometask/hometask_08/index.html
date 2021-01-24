@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="Hometask">
+    <meta description="Hometask">
+    <title>Лента новостей</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link">Посылки</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Упаковка</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Подписка</a></li>
+            </ul>
+            <div class="menu">
+                <a href="#" class="menu-link">Меню</a>
+            </div>
+        </header>
+        <main class="main-content">
+            <form action="" class="main-form" method="post">
+                <fieldset>
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" id="name" placeholder="Иванов Иван">
+                    <label for="town">Город</label>
+                    <input type="text" name="city" id="town" placeholder="Сочи">
+                    <label for="selection">Подарок</label>
+                    <select name="list" id="selection">
+                        <option value="Книга1" checked>Книга в твёрдом переплёте</option>
+                        <option value="Книга2">Книга в мягком переплёте</option>
+                        <option value="Закладки">Набор закладок</option>
+                        <option value="Блокнот">Блокнот</option>
+                    </select>
+                    <label for="post">Электронная почта</label>
+                    <input type="email" name="post" id="post" placeholder="Ваша почта">
+                </fieldset>
+                <!--<input type="submit" vlaue="Отправить">-->
+            </form>
+        </main>
+        <section class="package">
+            <h1 class="package-title">Ваша посылка уже в пути!</h1>
+        </section>
+        <footer class="footer">
+            <p class="footer-text first">
+                Секретные посылки для друзей
+            </p>
+            <p class="footer-text second">
+                2021
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

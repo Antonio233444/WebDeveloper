@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color: #f8bfc7;
+    --footer-color: #f8bfc7;
+    --text-color: #000;
+    --paragraph-color: #fff;
+}
+
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 62.5%;
+}
+
+.header {
+    height: 9rem;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    margin-right: 3rem;
+    padding-left: 3rem;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.nav-link:hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding-right: 4rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.menu-link:hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.main-content {
+    min-height: 64.3rem;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    position: relative;
+}
+
+.main-form {
+    width: 20rem;
+    height: 36.2rem;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+}
+
+fieldset {
+    border-radius: 10%;
+    padding: 2rem;
+    background-color: #f8bfc7;
+}
+
+input,label {
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+input[type="text"], input[type="email"] {
+    background-color: #f8bfc7;
+    border-bottom: 1px #fff solid;
+}
+
+
+.package {
+    min-height: 20rem;
+    background-color: #336FD1;
+}
+
+.package-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: #feb700;
+}
+
+
+.footer {
+    height: 9rem;
+    background-color: var(--footer-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 2rem;
+}
+
+.footer-text.first {
+    color: var(--paragraph-color);
+    padding-left: 3rem;
+    text-transform: uppercase;
+}
+
+.footer-text.second {
+    color: var(--paragraph-color);
+    padding-right: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

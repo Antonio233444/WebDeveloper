@@ -1,0 +1,10 @@
+@import url('reset.css');
+
+ img[src="https://merriam-webster.com/assets/mw/images/gallery/gal-wap-slideshow-slide/small-bridge-with-fallen-leaves-6942-da5e90bd422d898504231a9e7807c450@1x.jpg"] {
+     width: 300px;
+ }
+
+img[alt="vesna"] {
+    width: 500px;
+}
+

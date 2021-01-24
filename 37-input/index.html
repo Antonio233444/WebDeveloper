@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Boilerplate code">
+    <meta keywords="boilerplate, test">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div>
+        <div class="page">
+            <form action="">
+                <div class="column one">
+                    <fieldset class="personal">
+                        <label for="surname">ФИО</label>
+                        <input type="text" name="fio" id="surname" placeholder="Иванов Иван">
+                        <label for="post">Почта</label>
+                        <input type="email" name="email" id="post" placeholder="yo@exmple.com">
+                        <label for="password">Ваш пароль</label>
+                        <input type="password" name="parole" id="password" placeholder="Введите пароль">
+                        <label for="birthdate">Дата рождения</label>
+                        <input type="date" name="birth" id="birthdate">
+                    </fieldset>
+                </div>
+                <div class="column two">
+                    <fieldset class="type">
+                        <label for="client">Вы были здесь ранее?</label>
+                        <input type="radio" name="client" id="client" value="yes"><span>Да</span>
+                        <input type="radio" name="client" id="client" value="no"><span>Нет</span>
+                        <label for="selection">Цель вашего посещения</label>
+                        <select name="purpose" id="selection">
+                            <option value="туризм">Туризм</option>
+                            <option value="работа">Работа</option>
+                            <option value="другое">Другое</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="message">
+                        <label for="messager">Введите ваше сообщение в поле</label>
+                        <textarea name="message" id="messager" cols="30" rows="10">Ваше сообщение</textarea>
+                        <input type="checkbox" name="" id="" checked> <span>Согласен</span>
+                        <input type="checkbox" name="" id=""><span>Несогласен</span>
+                    </fieldset>
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
