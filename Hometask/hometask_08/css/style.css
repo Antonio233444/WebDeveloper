@@ -69,7 +69,7 @@ html {
 .main-content {
     min-height: 64.3rem;
     background-image: url('../img/background.png');
-    background-size: cover;
+    /*background-size: cover;*/
     position: relative;
 }
 
