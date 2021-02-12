@@ -38,13 +38,22 @@ body {
 }
 
 .nav-link {
-    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
     color: #fff;
+    text-decoration: none;
 }
 
 .nav-link:hover {
     color: #A37846;
 }
+
+.language span {
+    color: #fff;
+    font-size: 15px;
+}
+
+
 
 form {
     margin-bottom: 20px;
@@ -54,6 +63,7 @@ input[type="text"] {
     width: 1100px;
     min-height: 56px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .main {
@@ -61,9 +71,8 @@ input[type="text"] {
     min-height: 1310px;
     background-color: #f2f2f2;
     padding: 10px;
+    margin-bottom: 50px;
 }
-
-
 
 .news {
     min-height: 1310px;
@@ -79,6 +88,7 @@ input[type="text"] {
     background-color: #fff;
     border: 1px solid grey;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .main-block {
@@ -91,6 +101,11 @@ input[type="text"] {
     text-align: center;
 }
 
+.first-block {
+    width: 300px;
+}
+
+
 .main-block h1 {
     font-size: 50px;
     color: #000;
@@ -101,10 +116,78 @@ input[type="text"] {
     display: flex;
 }
 
-.news-block-first .second-block {
-    width: 800px;
+.news-block .first-block {
+    color: #000;
+    font-size: 20px;
+}
+
+.second-block {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.second-block p {
+    color: #000;
+    font-size: 20px;
+    width: 40%;
+    height: 100px;
+}
+
+.news-block-second {
     display: flex;
 }
+
+
+footer {
+    min-height: 600px;
+    background-color: #A37846;
+}
+
+.footer-menu {
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-menu-block {
+    min-height: 450px;
+    width: calc(100% - 50px)/4;
+}
+
+.block-list-item:last-child {
+    margin-bottom: 20px;
+}
+
+.block-list-link {
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.footer-menu-block h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.block-list-link:hover {
+    color: #A37846;
+}
+
+
+
+
+
+
+
+
 
 
 
